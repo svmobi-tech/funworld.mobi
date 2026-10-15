@@ -58,12 +58,12 @@ auth.json
 *.mpg
 *.m4v
 
+# Zip archives (game build/export zips, etc. - large and not needed in git)
+*.zip
+
 # Large game build artifacts (exceed GitHub's file size limit)
 html/hgame_30102025/02.Kingdom Defense/Construct 3/Kingdom Defense.c3p
 html/hgame_30102025/02.Kingdom Defense/Construct 2/Kingdom Defense.capx
-html/hgame_30102025/02.Kingdom Defense/Android & IOS/IOS.zip
-html/hgame_30102025/02.Kingdom Defense/HTML5/HTML5.zip
-html/hgame_30102025/02.Kingdom Defense/Android & IOS/Android.zip
 html/hgame_30102025/09.Grand Commander/Construct 2/Grand Commander.capx
 html/hgame_30102025/09.Grand Commander/Construct 3/Grand Commander.c3p
 
