@@ -1,6 +1,6 @@
 name: Deploy to server
 
-# Deploys on every push to main. You can also run it manually
+# Deploys on every push to master. You can also run it manually
 # from the Actions tab via the "Run workflow" button.
 on:
   push:
@@ -14,22 +14,21 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Deploy repo via rsync over SSH
+      - name: Deploy html/ via rsync over SSH
         uses: burnett01/rsync-deployments@7.0.1
         with:
-          # -r recursive, -l copy symlinks as symlinks, -v verbose, -z compress.
+          # -a archive, -v verbose, -z compress, -r recursive.
           # --checksum: compare file CONTENT (hash) not timestamp, so only
           #   genuinely-changed files transfer.
-          # No --delete: this is production, so files/directories removed from
-          #   git are left alone on the server — deploy only adds/updates,
-          #   never deletes. Remove things on the server manually if needed.
-          # --exclude-from=.rsyncignore: skip server-only files (images,
-          #   videos, .env) that are gitignored and not part of the repo.
-          switches: -rlvz --checksum --omit-dir-times --exclude-from=.rsyncignore
-          # Trailing slash = copy the CONTENTS of the repo root into remote_path.
-          path: ./
+          # --delete: mirror git exactly — files removed from git are also
+          #   removed from the server (full create/edit/delete sync).
+          # --exclude-from=.rsyncignore: protect server-only files (images,
+          #   videos, .env) from being deleted, since they are gitignored.
+          switches: -rlvz --checksum --omit-dir-times
+          # Trailing slash = copy the CONTENTS of html/ into remote_path.
+          path: html/
           remote_path: /var/www/funworld.mobi/html
-          remote_host: ${{ secrets.SSH_HOST }}
-          remote_port: ${{ secrets.SSH_PORT }}
-          remote_user: ${{ secrets.SSH_USER }}
+          remote_host: 34.87.16.111
+          remote_port: 22
+          remote_user: lipilogicillp
           remote_key:  ${{ secrets.SSH_KEY }}
