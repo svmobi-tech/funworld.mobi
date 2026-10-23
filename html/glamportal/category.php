@@ -205,9 +205,9 @@ else{
 					//echo "hi";
 					?>
 					
-					<a href="http://35.247.174.49/glambar/videocontent/images/gallary/rgkvideos/<?php echo $row['filename'];?>"><!-- style="pointer-events: none;">-->
+					<a href="http://glambar.mobi/videocontent/images/gallary/rgkvideos/<?php echo $row['filename'];?>"><!-- style="pointer-events: none;">-->
 					<div style="height: 60%; width: 100%; color: #900; border: solid; background-color: #fff; border-color: #c8b2cb; border-radius: 9px; position: relative; float: left; margin: 1% 1% 3% 3%; max-width: 500px;"><div>
-					<img style="width:100%;height:260px" src="http://35.247.174.49/glambar/videocontent/images/gallary/thumb/<?php echo $row['thumbfile'];?>"></div><center><div><h4><?php echo $row['itemdescription'];?></h4></div></center>
+					<img style="width:100%;height:260px" src="http://glambar.mobi/videocontent/images/gallary/thumb/<?php echo $row['thumbfile'];?>"></div><center><div><h4><?php echo $row['itemdescription'];?></h4></div></center>
 					</div></a>
 					<?php
 					}
@@ -215,9 +215,9 @@ else{
 						//echo "hi1";
 					?>
 
-						<a href="http://35.247.174.49/glambar/videocontent/images/gallary/thumb/<?php echo $row['thumbfile'];?> "><!-- style="pointer-events: none;">-->
+						<a href="http://glambar.mobi/videocontent/images/gallary/thumb/<?php echo $row['thumbfile'];?> "><!-- style="pointer-events: none;">-->
 					<div style="height: 30%; width: 100%; color: #900; border: solid; background-color: #fff; border-color: #c8b2cb; border-radius: 9px; position: relative; float: left; margin: 1% 1% 3% 3%; max-width: 170px;"><div>
-					<img style="width:100%;height:180px" src="http://35.247.174.49/glambar/videocontent/images/gallary/thumb/<?php echo $row['thumbfile'];?>"></div><center><div><h4><?php echo $row['itemdescription'];?></h4></div></center>
+					<img style="width:100%;height:180px" src="http://glambar.mobi/videocontent/images/gallary/thumb/<?php echo $row['thumbfile'];?>"></div><center><div><h4><?php echo $row['itemdescription'];?></h4></div></center>
 					</div></a>
 						
 					

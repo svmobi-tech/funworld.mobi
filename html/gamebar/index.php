@@ -174,7 +174,7 @@ if(isset($_SESSION['subid']))
 				  <div class="categoryrow">
 					<h5>New Games <a href="category.php?category=1">More</a></h5>
 					<div class="list-row">
-					  <a href=" http://35.247.174.49/gamebar/Games Contentdata/GameFiles/How Far Can You Drive Paid1.apk"><div class="listblock">
+					  <a href="http://gamebar.mobi/Games Contentdata/GameFiles/How Far Can You Drive Paid1.apk"><div class="listblock">
 						<div class="list-img"><img src="images/games/image/28821_How Far Can You Drive Paid1.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
@@ -186,7 +186,7 @@ if(isset($_SESSION['subid']))
 						  </div>
 						</div>
 					  </div></a>
-					 <a href=" http://35.247.174.49/gamebar/Games Contentdata/GameFiles/Exercise Map oj7.apk"> <div class="listblock">
+					 <a href="http://gamebar.mobi/Games Contentdata/GameFiles/Exercise Map oj7.apk"> <div class="listblock">
 						<div class="list-img"><img src="images/games/image/28923_Exercise Map oj7.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
@@ -198,7 +198,7 @@ if(isset($_SESSION['subid']))
 						  </div>
 						</div>
 					  </div></a>
-					  <a href=" http://35.247.174.49/gamebar/Games Contentdata/GameFiles/Golf Physics Madness dz9.apk"><div class="listblock">
+					  <a href="http://gamebar.mobi/gamebar/Games Contentdata/GameFiles/Golf Physics Madness dz9.apk"><div class="listblock">
 						<div class="list-img"><img src="images/games/image/28848_Golf%20Physics%20Madness%20dz9.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
@@ -215,7 +215,7 @@ if(isset($_SESSION['subid']))
 				  <div class="categoryrow">
 					<h5>Action Games <a href="category.php?category=2">More</a></h5>
 					<div class="list-row">
-					  <a href=" http://35.247.174.49/gamebar/Games Contentdata/GameFiles/JewelExplosion_SamsungGalaxy-1.apk"><div class="listblock">
+					  <a href="http://gamebar.mobi/gamebar/Games Contentdata/GameFiles/JewelExplosion_SamsungGalaxy-1.apk"><div class="listblock">
 						<div class="list-img"><img src="images/games/image/10214_Icon_png_512_512.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
@@ -227,7 +227,7 @@ if(isset($_SESSION['subid']))
 						  </div>
 						</div>
 					  </div></a>
-					  <a href=" http://35.247.174.49/gamebar/Games Contentdata/GameFiles/FrogBurst_SamsungGalaxy-1.apk"><div class="listblock">
+					  <a href="http://gamebar.mobi/gamebar/Games Contentdata/GameFiles/FrogBurst_SamsungGalaxy-1.apk"><div class="listblock">
 						<div class="list-img"><img src="images/games/image/9796_Icon_png_512_512.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
@@ -239,7 +239,7 @@ if(isset($_SESSION['subid']))
 						  </div>
 						</div>
 					  </div></a>
-					  <a href=" http://35.247.174.49/gamebar/Games Contentdata/GameFiles/Totemo_SamsungGalaxy-1.apk"><div class="listblock">
+					  <a href="http://gamebar.mobi/gamebar/Games Contentdata/GameFiles/Totemo_SamsungGalaxy-1.apk"><div class="listblock">
 						<div class="list-img"><img src="images/games/image/4611_Icon_png_512_512.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
@@ -256,7 +256,7 @@ if(isset($_SESSION['subid']))
 				  <div class="categoryrow">
 					<h5>Racing Games <a href="category.php?category=11">More</a></h5>
 					<div class="list-row">
-					  <a href=" http://35.247.174.49/gamebar/Games Contentdata/GameFiles/Skate 3d gk2.apk"><div class="listblock">
+					  <a href="http://gamebar.mobi/gamebar/Games Contentdata/GameFiles/Skate 3d gk2.apk"><div class="listblock">
 						<div class="list-img"><img src="images/games/image/28714_Skate%203d%20gk2.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
@@ -268,7 +268,7 @@ if(isset($_SESSION['subid']))
 						  </div>
 						</div>
 					  </div></a>
-					 <a href=" http://35.247.174.49/gamebar/Games Contentdata/GameFiles/Kart Physics PRo ri1.apk"> <div class="listblock">
+					 <a href="http://gamebar.mobi/gamebar/Games Contentdata/GameFiles/Kart Physics PRo ri1.apk"> <div class="listblock">
 						<div class="list-img"><img src="images/games/image/28794_Kart%20Physics%20PRo%20ri1.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
@@ -280,7 +280,7 @@ if(isset($_SESSION['subid']))
 						  </div>
 						</div>
 					  </div></a>
-					 <a href=" http://35.247.174.49/gamebar/Games Contentdata/GameFiles/Speedometer wi2.apk"> <div class="listblock">
+					 <a href="http://gamebar.mobi/gamebar/Games Contentdata/GameFiles/Speedometer wi2.apk"> <div class="listblock">
 						<div class="list-img"><img src="images/games/image/28703_Speedometer%20wi2.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
@@ -297,7 +297,7 @@ if(isset($_SESSION['subid']))
 				  <div class="categoryrow">
 					<h5>Shoot-Em-Up Games<a href="category.php?category=4">More</a></h5>
 					<div class="list-row">
-					 <a href=" http://35.247.174.49/gamebar/Games Contentdata/GameFiles/VegasPoolSharks_SamsungGalaxy-1.apk"> <div class="listblock">
+					 <a href="http://gamebar.mobi/gamebar/Games Contentdata/GameFiles/VegasPoolSharks_SamsungGalaxy-1.apk"> <div class="listblock">
 						<div class="list-img"><img src="images/games/image/4995_splashHires-512x512.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
@@ -309,7 +309,7 @@ if(isset($_SESSION['subid']))
 						  </div>
 						</div>
 					  </div></a>
-					  <a href=" http://35.247.174.49/gamebar/Games Contentdata/GameFiles/PenaltyWorldChallenge_SamsungGalaxy-1.apk"><div class="listblock">
+					  <a href="http://gamebar.mobi/gamebar/Games Contentdata/GameFiles/PenaltyWorldChallenge_SamsungGalaxy-1.apk"><div class="listblock">
 						<div class="list-img"><img src="images/games/image/7117_SplashScreen.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
@@ -321,7 +321,7 @@ if(isset($_SESSION['subid']))
 						  </div>
 						</div>
 					  </div></a>
-					<a href=" http://35.247.174.49/gamebar/Games Contentdata/GameFiles/Par72Golf_SamsungGalaxy-1.apk">  <div class="listblock">
+					<a href="http://gamebar.mobi/gamebar/Games Contentdata/GameFiles/Par72Golf_SamsungGalaxy-1.apk">  <div class="listblock">
 						<div class="list-img"><img src="images/games/image/5012_splashHires-512x512.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
@@ -338,7 +338,7 @@ if(isset($_SESSION['subid']))
 				  <div class="categoryrow">
 					<h5>Board Games<a href="category.php?category=13">More</a></h5>
 					<div class="list-row">
-					 <a href=" http://35.247.174.49/gamebar/Games Contentdata/GameFiles/BlackJackUniverse_SamsungGalaxy-1.apk"> <div class="listblock">
+					 <a href="http://gamebar.mobi/gamebar/Games Contentdata/GameFiles/BlackJackUniverse_SamsungGalaxy-1.apk"> <div class="listblock">
 						<div class="list-img"><img src="images/games/image/10013_Icon_png_512_512.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
@@ -350,7 +350,7 @@ if(isset($_SESSION['subid']))
 						  </div>
 						</div>
 					  </div></a>
-					  <a href=" http://35.247.174.49/gamebar/Games Contentdata/GameFiles/FruitMachineGold_SamsungGalaxy-1.apk"><div class="listblock">
+					  <a href="http://gamebar.mobi/gamebar/Games Contentdata/GameFiles/FruitMachineGold_SamsungGalaxy-1.apk"><div class="listblock">
 						<div class="list-img"><img src="images/games/image/8889_Icon_png_512_512.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
@@ -362,7 +362,7 @@ if(isset($_SESSION['subid']))
 						  </div>
 						</div>
 					  </div></a>
-					 <a href=" http://35.247.174.49/gamebar/Games Contentdata/GameFiles/HoldemPokerInferno_SamsungGalaxy-1.apk"> <div class="listblock">
+					 <a href="http://gamebar.mobi/gamebar/Games Contentdata/GameFiles/HoldemPokerInferno_SamsungGalaxy-1.apk"> <div class="listblock">
 						<div class="list-img"><img src="images/games/image/9935_Icon_png_512_512.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">

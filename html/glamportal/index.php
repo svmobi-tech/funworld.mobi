@@ -134,8 +134,8 @@ include("dbdetail.php");
 				  <div class="categoryrow">
 					<h5>New videos <a href="category.php?category=1&page=0">More</a></h5>
 					<div class="list-row">
-					  <a href="http://35.247.174.49/glambar/videocontent/images/gallary/rgkvideos/14009_ENTER_THE_BOUDOIR_Natalia_Redbikini.mp4"><div class="listblock">
-						<div class="list-img"><img src="http://35.247.174.49/glambar/videocontent/images/gallary/thumb/14009_ENTER_THE_BOUDOIR_Natalia_Redbikini.jpg" alt="" title=""></div>
+					  <a href="http://glambar.mobi/videocontent/images/gallary/rgkvideos/14009_ENTER_THE_BOUDOIR_Natalia_Redbikini.mp4"><div class="listblock">
+						<div class="list-img"><img src="http://glambar.mobi/videocontent/images/gallary/thumb/14009_ENTER_THE_BOUDOIR_Natalia_Redbikini.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
 							<h6>
@@ -148,8 +148,8 @@ Sandra Video</h6>
 						  </div>
 						</div>
 					  </div></a>
-					 <a href="http://35.247.174.49/glambar/videocontent/images/gallary/rgkvideos/Ella.mp4"> <div class="listblock">
-						<div class="list-img"><img src="http://35.247.174.49/glambar/videocontent/images/gallary/thumb/Ella.jpg" alt="" title=""></div>
+					 <a href="http://glambar.mobi/videocontent/images/gallary/rgkvideos/Ella.mp4"> <div class="listblock">
+						<div class="list-img"><img src="http://glambar.mobi/videocontent/images/gallary/thumb/Ella.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
 							<h6>
@@ -162,8 +162,8 @@ Ella Video</h6>
 						  </div>
 						</div>
 					  </div></a>
-					  <a href="http://35.247.174.49/glambar/videocontent/images/gallary/rgkvideos/14002_STRIPPED_TO_THEIR_UNDERWEAR_Bree_Tealbra.mp4"><div class="listblock">
-						<div class="list-img"><img src="http://35.247.174.49/glambar/videocontent/images/gallary/thumb/14002_STRIPPED_TO_THEIR_UNDERWEAR_Bree_Tealbra.jpg" alt="" title=""></div>
+					  <a href="http://glambar.mobi/videocontent/images/gallary/rgkvideos/14002_STRIPPED_TO_THEIR_UNDERWEAR_Bree_Tealbra.mp4"><div class="listblock">
+						<div class="list-img"><img src="http://glambar.mobi/videocontent/images/gallary/thumb/14002_STRIPPED_TO_THEIR_UNDERWEAR_Bree_Tealbra.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
 							<h6><br>Isabel Video <br></h6>
@@ -179,8 +179,8 @@ Ella Video</h6>
 				  <div class="categoryrow">
 					<h5>Hot Videos <a href="category.php?category=2&page=0">More</a></h5>
 					<div class="list-row">
-					  <a href="http://35.247.174.49/glambar/videocontent/images/gallary/rgkvideos/14006_CHILL-OUT_CHICKS_Erin_Cabana.mp4"><div class="listblock">
-						<div class="list-img"><img src="http://35.247.174.49/glambar/videocontent/images/gallary/thumb/14006_CHILL-OUT_CHICKS_Erin_Cabana.jpg" alt="" title=""></div>
+					  <a href="http://glambar.mobi/videocontent/images/gallary/rgkvideos/14006_CHILL-OUT_CHICKS_Erin_Cabana.mp4"><div class="listblock">
+						<div class="list-img"><img src="http://glambar.mobi/videocontent/images/gallary/thumb/14006_CHILL-OUT_CHICKS_Erin_Cabana.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
 							<h6>Hannah Video</h6>
@@ -191,8 +191,8 @@ Ella Video</h6>
 						  </div>
 						</div>
 					  </div></a>
-					  <a href="http://35.247.174.49/glambar/videocontent/images/gallary/rgkvideos/14005_CASCADES_OF_PASSION_Erika_Hottub.mp4"><div class="listblock">
-						<div class="list-img"><img src="http://35.247.174.49/glambar/videocontent/images/gallary/thumb/14005_CASCADES_OF_PASSION_Erika_Hottub.jpg" alt="" title=""></div>
+					  <a href="http://glambar.mobi/videocontent/images/gallary/rgkvideos/14005_CASCADES_OF_PASSION_Erika_Hottub.mp4"><div class="listblock">
+						<div class="list-img"><img src="http://glambar.mobi/videocontent/images/gallary/thumb/14005_CASCADES_OF_PASSION_Erika_Hottub.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
 							<h6>Chelsea Video</h6>
@@ -203,8 +203,8 @@ Ella Video</h6>
 						  </div>
 						</div>
 					  </div></a>
-					  <a href="http://35.247.174.49/glambar/videocontent/images/gallary/rgkvideos/14009_SPORTY_SPICY_Shantal_Greatsmile.mp4"><div class="listblock">
-						<div class="list-img"><img src="http://35.247.174.49/glambar/videocontent/images/gallary/thumb/14009_SPORTY_SPICY_Shantal_Greatsmile.jpg" alt="" title=""></div>
+					  <a href="http://glambar.mobi/videocontent/images/gallary/rgkvideos/14009_SPORTY_SPICY_Shantal_Greatsmile.mp4"><div class="listblock">
+						<div class="list-img"><img src="http://glambar.mobi/videocontent/images/gallary/thumb/14009_SPORTY_SPICY_Shantal_Greatsmile.jpg" alt="" title=""></div>
 						<div class="list-details">
 						  <div class="list-info">
 							<h6>Ella Video</h6> 
