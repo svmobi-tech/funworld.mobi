@@ -31,7 +31,11 @@ writeLog('===== Run started =====');
 //The path & filename to save to.
 $name = "uploads/SVMOBI_TRX_$date2.csv.gz";
 echo $name . "<br>";
-$saveTo = "files/SVMOBI_TRX_$date2.csv.gz";
+$filesDir = __DIR__ . '/files';
+if (!is_dir($filesDir)) {
+	mkdir($filesDir, 0755, true);
+}
+$saveTo = $filesDir . "/SVMOBI_TRX_$date2.csv.gz";
 
 //Open file handler.
 $fp = fopen($saveTo, 'w+');
@@ -48,6 +52,8 @@ if ($fp === false) {
 //Create a cURL handle.
 $ch = curl_init("sftp://$ftp_user_name:$ftp_user_pass@$fileUrl/$name");
 curl_setopt($ch, CURLOPT_PROTOCOLS, CURLPROTO_SFTP);
+curl_setopt($ch, CURLOPT_PROXY, "127.0.0.1:1080");
+curl_setopt($ch, CURLOPT_PROXYTYPE, CURLPROXY_SOCKS5_HOSTNAME);
 //Pass our file handle to cURL.
 curl_setopt($ch, CURLOPT_FILE, $fp);
 
