@@ -1,4 +1,5 @@
 <?php
+exit;
 sleep(30);
 
 include "includes/dbdetail.php";
