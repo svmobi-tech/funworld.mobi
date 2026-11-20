@@ -53,9 +53,15 @@ if ($fp === false) {
 $ch = curl_init("sftp://$ftp_user_name:$ftp_user_pass@$fileUrl/$name");
 curl_setopt($ch, CURLOPT_PROTOCOLS, CURLPROTO_SFTP);
 curl_setopt($ch, CURLOPT_PROXY, "127.0.0.1:1080");
-curl_setopt($ch, CURLOPT_PROXYTYPE, CURLPROXY_SOCKS5_HOSTNAME);
+curl_setopt($ch, CURLOPT_PROXYTYPE, CURLPROXY_SOCKS5);
 //Pass our file handle to cURL.
 curl_setopt($ch, CURLOPT_FILE, $fp);
+
+//Verbose logging to help diagnose SSH/proxy handshake failures.
+$curlDebugFile = $logDir . "/curl_debug_$date2.log";
+$curlDebugFp = fopen($curlDebugFile, 'a');
+curl_setopt($ch, CURLOPT_VERBOSE, true);
+curl_setopt($ch, CURLOPT_STDERR, $curlDebugFp);
 
 //Timeout if the file doesn't download after 20 seconds.
 curl_setopt($ch, CURLOPT_TIMEOUT, 20);
@@ -75,6 +81,7 @@ $statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
 //Close the cURL handler.
 curl_close($ch);
+fclose($curlDebugFp);
 
 //Close the file handler.
 fclose($fp);
