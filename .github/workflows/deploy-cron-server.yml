@@ -1,0 +1,32 @@
+name: Deploy to cron server
+
+# Deploys on every push to master. Also runnable manually from the Actions tab.
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy html/ via rsync over SSH
+        uses: burnett01/rsync-deployments@7.0.1
+        with:
+          # -r recursive, -l copy symlinks as symlinks, -v verbose, -z compress.
+          # --checksum: compare file CONTENT (hash) not timestamp, so only
+          #   genuinely-changed files transfer.
+          # --omit-dir-times: directories are not owned by the deploy user,
+          #   so preserving their timestamps fails with "Operation not
+          #   permitted"; omitting it makes rsync use the transfer time.
+          switches: -rlvz --checksum --omit-dir-times
+          # Trailing slash = copy the CONTENTS of html/ into remote_path.
+          path: html/
+          remote_path: /opt/php-projects/funworld.mobi/
+          remote_host: 35.198.214.165
+          remote_port: 22
+          remote_user: lipilogicillp
+          remote_key:  ${{ secrets.SSH_KEY }}
