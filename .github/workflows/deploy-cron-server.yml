@@ -3,7 +3,7 @@ name: Deploy to cron server
 # Deploys on every push to master. Also runnable manually from the Actions tab.
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
