@@ -25,7 +25,7 @@ jobs:
           switches: -rlvz --checksum --omit-dir-times
           # Trailing slash = copy the CONTENTS of html/ into remote_path.
           path: html/
-          remote_path: /opt/php-projects/funworld.mobi/
+          remote_path: /opt/php-projects/funworld.mobi/html/
           remote_host: 35.198.214.165
           remote_port: 22
           remote_user: lipilogicillp
