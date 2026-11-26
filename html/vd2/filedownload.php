@@ -52,8 +52,14 @@ if ($fp === false) {
 //Create a cURL handle.
 $ch = curl_init("sftp://$ftp_user_name:$ftp_user_pass@$fileUrl/$name");
 curl_setopt($ch, CURLOPT_PROTOCOLS, CURLPROTO_SFTP);
-curl_setopt($ch, CURLOPT_PROXY, "127.0.0.1:1080");
-curl_setopt($ch, CURLOPT_PROXYTYPE, CURLPROXY_SOCKS5_HOSTNAME);
+//Direct connection from this server - no proxy needed.
+//curl_setopt($ch, CURLOPT_PROXY, "127.0.0.1:1080");
+//curl_setopt($ch, CURLOPT_PROXYTYPE, CURLPROXY_SOCKS5_HOSTNAME);
+
+//Verify the SFTP server's SSH host key against a known_hosts file
+//(generate once on the server with: ssh-keyscan -t rsa,ecdsa,ed25519 <host> > known_hosts).
+curl_setopt($ch, CURLOPT_SSH_KNOWNHOSTS, __DIR__ . '/known_hosts');
+
 //Pass our file handle to cURL.
 curl_setopt($ch, CURLOPT_FILE, $fp);
 
