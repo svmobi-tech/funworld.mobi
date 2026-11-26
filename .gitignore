@@ -24,12 +24,17 @@ Homestead.json
 
 /public/build
 /storage/pail
-.env
-.env.backup
-.env.production
+
+# Env files (all variants), but keep committed .env.example templates
+.env*
+!.env.example
+
 .phpactor.json
 auth.json
+
+# Log files and log directories anywhere in the repo
 **/logs
+*.log
 
 # Images
 *.jpg
